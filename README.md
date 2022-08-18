@@ -10,9 +10,12 @@
 ### **Installation**:
 <ul>
   <li>Fork the repository</li>
-  <li>at home project directory, type: docker run -p 6379:6379 --name some-redis -d redis:4.0.1</li>
-  <li>type: npm install redis</li>
+  <li>at home project directory (example: projects/holygrail/)</li>
+  <li>type: cd ~/projects/holygrail
+  <li>type: npm install</li>
+  <li>type: docker run -p 6379:6379 --name some-redis -d redis:4.0.1</li>
   <li>verifying, type: docker ps</li>
+  <li>type: npm install redis</li>
   <li>type: npm install node</li>
   <li>type: node index.js</li>
 </ul>
